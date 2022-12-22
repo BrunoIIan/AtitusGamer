@@ -1,5 +1,5 @@
 import { db } from '../services/FirebaseConnect'
-import { collection, addDoc, doc, getDocs, query, deleteDoc } from "firebase/firestore";
+import { collection, addDoc, doc, getDocs, query, deleteDoc } from 'firebase/firestore';
 
 export function salvarGamers(dados) {
     return new Promise(async (resolve, reject) => {

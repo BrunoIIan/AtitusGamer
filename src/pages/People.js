@@ -4,7 +4,7 @@ import Cabecalho from '../components/Cabecalho'
 import Rodape from '../components/Rodape'
 import MenuOpcoes from '../components/MenuOpcoes'
 
-export default function Menu(props) {
+export default function People(props) {
 
   return (
     <>
@@ -16,7 +16,7 @@ export default function Menu(props) {
           <MenuOpcoes />
 
           <div>
-            <h1>Home</h1>
+            <h1>People</h1>
           </div>
 
         </Grid>

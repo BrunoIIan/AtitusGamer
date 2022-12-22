@@ -11,10 +11,28 @@ export default function MenuOpcoes() {
     return (
         <div className='menu'>
             <Link to="/menu">
-                <div className='itemMenu'>Capa</div>
+                <div className='itemMenu'>Home</div>
             </Link>
-            <Link to="/cadastro">
-                <div className='itemMenu'>Cadastro</div>
+            <Link to="/films">
+                <div className='itemMenu'>Films</div>
+            </Link>
+            <Link to="/starships">
+                <div className='itemMenu'>Starships</div>
+            </Link>
+            <Link to="/people">
+                <div className='itemMenu'>People</div>
+            </Link>
+            <Link to="/planets">
+                <div className='itemMenu'>Planets</div>
+            </Link>
+            <Link to="/species">
+                <div className='itemMenu'>Species</div>
+            </Link>
+            <Link to="/duvidas">
+                <div className='itemMenu'>Dúvidas</div>
+            </Link>
+            <Link to="/sobre">
+                <div className='itemMenu'>Sobre</div>
             </Link>
             <div className='itemMenu' onClick={logoff}>Logoff</div>
         </div>

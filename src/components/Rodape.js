@@ -5,6 +5,8 @@ export default function Rodape() {
         <div className='rodape'>
             <span>Desenvolvido na Disciplina de Tópicos Especiais em Programação</span>
             <br />
+            | Bruno Ortolan - 1130010 - bru.ortolan@hotmail.com |
+            <br />
             <span>@Copyright 2022 - ATITUS </span>
         </div>
     )

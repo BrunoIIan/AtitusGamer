@@ -4,7 +4,7 @@ import Cabecalho from '../components/Cabecalho'
 import Rodape from '../components/Rodape'
 import MenuOpcoes from '../components/MenuOpcoes'
 
-export default function Menu(props) {
+export default function Sobre(props) {
 
   return (
     <>
@@ -16,9 +16,9 @@ export default function Menu(props) {
           <MenuOpcoes />
 
           <div>
-            <h1>Home</h1>
+            <h1>Sobre</h1>
           </div>
-
+    
         </Grid>
         <Grid item md={12} xs={12} sm={12}>
           <Rodape />
